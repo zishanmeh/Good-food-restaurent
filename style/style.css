@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.hero {
+    background-image: url("../assets/hero-bg.png");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.hero-wrapper {
+    background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.hero-content {
+    width: 40%;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.hero-content > p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero-content > span {
+    color: rgb(255, 255, 255);
+    font-size: 0.80rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+}
+.hero-content button {
+    background-color: rgb(82, 195, 3);
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* card box  */
+
+.card-box{
+
+    margin: 50px auto;
+
+}
+.card-box-header > span {
+    color: rgb(16, 16, 16);
+    text-align: center;
+    display: block;
+}
+.card-box-header > h1 {
+    text-align: center;
+    font-weight: 700;
+    font-family: "Work Sans"
+}
+.card-box-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+.card-box-cards > .card {
+    width: 28%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-box-cards > .card > img {
+    width: 100%;
+}
+.brand-name {
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 14px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: auto;
+}
+.card > h3 {
+    font-size: 1.5rem;
+}
+.card > .card-details {
+    color: rgb(63, 63, 63);
+}
+.card-box-footer {
+    text-align: center;
+}
+.card-box-footer > button {
+    background-color: rgb(82, 195, 3);
+    color: white;
+    padding: 20px 32px;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.about {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+.about-image {
+    width: 50%;
+}
+.about-image > img {
+    width: 100%;
+}
+.about-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+}
+.about-details > h1{
+    color: rgb(32, 32, 32);
+}
+.about-details > p {
+    color: rgb(32, 32, 32);
+}
+.about-details > span {
+    display: block;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+}
+.social > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+.social> ul li a {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+.social> ul li a:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    background-image: url("../assets/social-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.footer {
+    background:  linear-gradient(180.00deg, rgba(251, 250, 250, 0.868) -19.5%,rgba(226, 223, 223, 0.826) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer > span {
+    display: block;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
